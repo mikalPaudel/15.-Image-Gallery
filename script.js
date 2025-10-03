@@ -18,3 +18,10 @@ backBtn.addEventListener('click',()=>{
     scrollContainer.scrollLeft -= 300;
 });
 
+document.addEventListener('keydown', (event)=> {
+    if (event.key == 'ArrowRight'|| event.key == 'ArrowUp'){
+        nextBtn.click();    
+}else if(event.key == 'ArrowLeft' || event.key == 'ArrowDown'){
+    backBtn.click();
+}
+});
