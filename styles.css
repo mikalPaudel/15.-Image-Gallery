@@ -23,3 +23,17 @@ body{
 .gallery div img{
     width: 100%;
 }
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
